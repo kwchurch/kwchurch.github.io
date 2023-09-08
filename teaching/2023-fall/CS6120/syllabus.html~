@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <table>
+
+      <tr><th>Date</th> <th> Topic </th> <th> Slides </th> <th> Assignments</th></tr>
+      <tr><td>9/11</td> <td> Introduction, Tools, Machine Learning</td></tr>
+      <tr><td>9/18</td> <td> Bag of Words, tf/idf, Naive Bayes, PMI, Word2vec</tr>
+      <tr><td>9/25</td> <td> More Classification </td></tr>
+      <tr><td>10/2</td> <td> Part of Speech Tagging, Spelling Correction, Ngrams, HMMs</td></tr>
+      <tr><td>10/9</td><td>Holiday</td></tr>
+      <tr><td>10/16</td><td>Exam</td></tr>
+      <tr><td>10/23</td> <td> Parsing</td></tr>
+      <tr><td>10/30</td> <td> Coreference, Unsupervised Learning</td></tr>
+      <tr><td>11/6</td><td> Word Representations, Neural Networks </td>/tr>
+      <tr><td>11/13</td> <td> Deep Learning and Language Models</td> </tr>
+      <tr><td>11/20</td> <td> Transformers, Pretrained Models, Finetuning</td> </tr>
+      <tr><td>11/27</td>  <td> GPT </td> </tr>
+      <tr><td>12/4</td>  <td> ChatGPT, Responsible AI</td> </tr>>
+      <tr><td>12/18</td> <td> Final Presentations; Speech, Web Search, Knowledge Graphs</td> </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<h1>Better Together</h1>
+
+This assignment is based on <a href="https://www.semanticscholar.org/api-gallery/better-together">this</a>.
+<p>
+  Please try <a href="http://34.204.188.58/cgi-bin/similar?embedding=proposed&limit=3&author=David+Madigan">this</a>
+  and <a href="http://34.204.188.58/cgi-bin/similar?embedding=proposed&limit=5&author=Noah%20Smith">this</a>.
+  Many names such as <i>David Madigan</i> and <i>Noah Smith</i> are difficult for search engines such as
+<a href="https://www.semanticscholar.org/search?q=David+Madigan">Semantic Scholar</a>.
+This exercise provides a visualization to help resolve some of these ambiguities.
+</p>
+<h2>Tasks</h2>
+
+Write a program that inputs a name such as <i>Noah Smith</i>
+and outputs a visualization like this:
+
+<p>
+<img src="Noah.png"/>
+</p>
+
+<p>
+  <b>Note</b>: Your picture will look different because you will be using different embeddings.
+</p>
+
+<p>
+  Please post code and output pictures on GitHub, and share links to your code on Canvas.
+</p>
+
+
+<p>
+  Suggested steps:
+
+  <ol>
+    <li><a href="#step1">input name and output list of candidates and their papers</a></li>
+    <li><a href="#step2">input paper id and output embeddings</a></li>
+    <li><a href="#step3">compute pairwise similarities</a></li>
+    <li><a href="#step4">plot similarities</a></li>
+  </ol>
+</p>
+
+<p>
+  Suggested improvements:
+  <ol>
+    <li>Sort candidate authors by citations.</li>
+    <li>Sort candidate papers by citations.</li>
+    <li>Limit candidate authors and candidate papers to <i>n</i>-best, for some reasonable value of <i>n</i>.</li>
+  </ol>
+</p>
+<p>
+Hints: the following python packages may be useful:
+</p>
+<pre>
+import json,requests
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+import matplotlib
+import matplotlib.pyplot as plt
+</pre>
+
+<p>
+  See <a href="https://api.semanticscholar.org/api-docs/">here</a> for documentation on the Semantic Scholar API.
+</p>
+
+<h2 id="step1">Step 1: Input name and output list of candidates and their papers</h2>
+
+
+<pre>
+j = requests.get('https://api.semanticscholar.org/graph/v1/author/search?query=David Madigan&fields=name,citationCount,papers,papers.citationCount').json()
+</pre>
+
+
+<h2 id="step2">Step 2: input paper id and output embeddings</h2>
+
+<pre>
+p = requests.get('https://api.semanticscholar.org/graph/v1/paper/00707ba45ffe6efa08a59693c47801211ca634d6?fields=title,embedding,citationCount,title').json()
+</pre>
+
+<h2 id="step3">Step 3: compute pairwise similarities</h2>
+
+See <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html">here</a>
+
+<h2 id="step4">Step 4: plot similarities</h2>
+
+<p>
+  There are many tutorials on imshow such as <a href="https://plotly.com/python/imshow/">this</a>.
+</p>
+
+
+

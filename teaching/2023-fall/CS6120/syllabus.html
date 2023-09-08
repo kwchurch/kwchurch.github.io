@@ -1,0 +1,225 @@
+<html>
+  <body>
+    <h1>CS6120: Practical Natural Language Processing</h1>
+
+<a href="../../../index.html">Kenneth Church</a>
+
+    <h2>Previous versions of this class</h2>
+    <ol>
+      <li><a href="https://rasikabh.github.io/nlp2023/">Spring 2023 in San Jose</a></li>
+      <li><a href="https://www.ccs.neu.edu/home/dasmith/courses/cs6120/">Spring 2023 in Boston</a></li>
+    </ol>
+
+    <h2>Textbooks</h2>
+<ol>
+  <li><a href="https://web.stanford.edu/~jurafsky/slp3/">JM3</a></li>
+  <li><a href="https://mitpress.mit.edu/9780262042840/introduction-to-natural-language-processing/">E</a> (optional; maybe)</li>
+  <li><a href="https://www.manning.com/books/deep-learning-with-python">Deep Learning with Python</a> (optional; maybe)</li>
+  </ol>
+
+<h2>Computers</h2>
+
+<ol>
+  <li>Your laptop; will need to install python (and more)</li>
+  <li><a href="https://rc-docs.northeastern.edu/en/latest/welcome/welcome.html">Discovery Cluster</a></li>
+  <li><a href="https://github.com/kwchurch/kwchurch.github.io">GitHub</a> (please request an account)</li>
+</ol>
+    
+The syllabus below is modeled after the previous versions of this class, though I hope to
+prioritize the material based more on current priorities
+and less on how the field got to where it is.
+
+<h2>Syllabus</h2>
+    <p>
+      <table border="1">
+	<tr>
+	  <th>Date</th> 
+	  <th>Topic</th> 
+	  <th>Teacher</th> 
+	  <th>Slides</th> 
+	  <th>Readings</th>
+	  <th>Assignments</th>
+	</tr>
+	<tr>
+	  <td>9/11</td> 
+	  <td>Introduction, Tools, Machine Learning, Statistics</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.01">Slides</a></td>
+	  <td>
+	    <ol>
+	      <li><a href="https://web.stanford.edu/~jurafsky/slp3/6.pdf">JM3: Chapter 6</a></li>
+	      <li><a href="https://www.cambridge.org/core/journals/natural-language-engineering/article/word2vec/B84AE4446BD47F48847B4904F0B36E0B">My opinion piece on Word2vec</a></li>
+	      <li><a href="https://aclanthology.org/J90-1003.pdf">Church and Hanks (1990)</a></li>
+	      <li><a href="https://psychology.uwo.ca/faculty/harshman/latentsa.pdf">Latent Semantic Indexing</a></li>
+	    </ol>
+	  </td>
+	  <td><a href="assignments/assignment.01">Better Together</a></td>
+	</tr>
+	<tr>
+	  <td>9/18</td> 
+	  <td>
+	    <table width="400"><tr><td>Bag of Words, tf/idf, Naive Bayes, PMI, Word2vec, Man is to Woman as..., Linear Algebra, Rotations, Bilingual Lexicon Induction (BLI), BERT
+	    </td></tr></table>
+	  </td>
+	  <td>Jiaji Huang</td>
+	  <td>
+	    <a href="lectures/lecture.02">Slides</a>
+	    <a href="https://docs.google.com/presentation/d/1ygP9I2_tTsNnWsElZGopArMcWwk0FNh-F4E5x2PM0so/edit?usp=sharing">Lecture from Last Term</a>
+	  </td>
+	  <td>
+	    <ol>
+	      <li><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/909A753B5EC40310A8DC2A3093CAE9F6/S1351324922000237a.pdf/emerging-trends-general-fine-tuning-gft.pdf">General Fine-Tuning</a></li>
+	      <li><a href="https://huggingface.co/learn/nlp-course/chapter1/3?fw=pt">HuggingFace tutorial on inference</a></li>
+	    </ol>
+	  </td>
+	  <td>Assignment: TBD</td>
+	</tr>
+	<tr>
+	  <td>9/25</td> 
+	  <td>Deep Nets: Inference</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.03">Slides</a></td>
+	  <td><a href="https://web.stanford.edu/~jurafsky/slp3/14.pdf">JM3: Chapter 14</a></td>
+	  <td><a href="assignments/assignment.02">Assignment 2</a></td>
+	</tr>
+	<tr>
+	  <td>10/2</td> 
+	  <td><table width="300"><tr><td>More Deep Nets: Question Answering, Machine Translation, Part of Speech Tagging, Sequence Modeling<td></table></td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.04">Slides</a></td>
+	  <td>No Readings<br>(Study for Exam)</td>
+	  <td>No Assignment<br>(Study for Exam)</td>
+	</tr>
+	<tr>
+	  <td>10/9</td>
+	  <td>Holiday</td>
+	</tr>
+	<tr>
+	  <td>10/16</td>
+	  <td>Exam</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td>No Lecture</a></td>
+	  <td>
+	    <ol>
+	      <li><a href="https://web.stanford.edu/~jurafsky/slp3/10.pdf">JM3: Chapter 10</a></li>
+	      <li><a href="https://www.cambridge.org/core/journals/natural-language-engineering/article/emerging-trends-a-gentle-introduction-to-finetuning/C31D429D0928351D6A6692F8ECD1E7ED">A Gentle Introduction to Fine-Tuning</a></li>
+	      <li><a href="https://huggingface.co/learn/nlp-course/chapter3/1?fw=pt">HuggingFace tutorial on fine-tuning</a></li>
+	      <li><a href="https://proceedings.neurips.cc/paper_files/paper/2021/file/a1c3ae6c49a89d92aef2d423dadb477f-Paper.pdf">Zoo of Checkpoints</a></li>
+	    </ol>
+	  </td>
+	  <td>Write proposal for final project</td>
+	</tr>
+	<tr>
+	  <td>10/23</td>
+	  <td>
+	    <table width="300"> <tr><td>
+		  Transformers; Zoo of checkpoints ; Deep Nets: Fine-Tuning, Distillation
+	    </td></tr></table>
+	  </td>
+	  <td>Jiaji Huang</td>
+	  <td><a href="lectures/lecture.06">Slides</a></td>
+	  <td>
+	    <table width="300"> <tr><td>
+	    <ol>
+	      <li><a href="https://web.stanford.edu/~jurafsky/slp3/15.pdf">JM3 Chapter 15</a></li>
+	      <li><a href="https://www.cambridge.org/core/journals/natural-language-engineering/article/gpt3-whats-it-good-for/0E05CFE68A7AC8BF794C8ECBE28AA990">GPT-3: What’s it good for?</a></li>
+	      <li><a href="https://www.theguardian.com/technology/2023/jul/25/joseph-weizenbaum-inventor-eliza-chatbot-turned-against-artificial-intelligence-ai">Weizenbaum’s nightmares: how the inventor of the first chatbot turned against AI</a></li>
+	      <li><a href="https://www.promptingguide.ai/">Prompt Engineering</a></li>
+	      <li>
+		<table width="300"> <tr><td>
+<a href="https://www.wbur.org/hereandnow/2023/05/22/chatgpt-academia">I am a Student.  You have No Idea How much we're Using ChatGPT</a>
+		</td></tr></table>
+	      </li>
+	      </ol>
+	    </td></tr></table>
+	  </td>
+	  <td><a href="assignments/assignment.03">Assignment 3</a></td>
+	</tr>
+	<tr>
+	  <td>10/30</td>
+	   <td>ChatGPT</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.07">Slides</a></td>
+	  <td>
+	    <ol>
+	      <li><a href="https://arxiv.org/pdf/2207.04672.pdf">No Language Left Behind</a></li>
+	      <li><a href="https://aclanthology.org/2022.emnlp-main.600.pdf">ArtELingo</a></li>
+	      <li><a href="https://arxiv.org/pdf/1405.0312.pdf">COCO</a></li>
+	      <li><a href="https://paperswithcode.com/dataset/coco">Papers with Code (for COCO)</a></li>
+	      <li><a href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=eed1cfcf1f88108f6a3ad5fa6ef18ede00ae6689">LibriSpeech</a></li>
+	      <li><a href="https://arxiv.org/pdf/1904.06037.pdf">Speech to Speech Translation</a></li>
+	      <li><a href="https://arxiv.org/abs/2201.11732">IGLUE</a></li>
+	      </ol>
+	  </td>
+	  <td><a href="assignments/assignment.04">Assignment 4</a></td>
+	</tr>
+	<tr>
+	  <td>11/6</td>
+	  <td>Multi-modality: NLP, vision, speech, emotion, translation, etc.</i></td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.08">Slides</a></td>
+	  <td>Readings: TBD</td>
+	  <td><a href="assignments/assignment.05">Assignment 5</a></td>
+	</tr>
+	<tr>
+	  <td>11/13</td>
+	  <td>Lexical Semantics</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.09">Slides</a></td>
+	  <td>Readings: TBD</td>
+	  <td><a href="assignments/assignment.06">Assignment 6</a></td>
+	</tr>
+	<tr>
+	  <td>11/20</td>
+	  <td>
+	    <table width="300"> <tr><td>
+		  Syntax: Part of Speech Tagging, Parsing, Formal Language Theory, Semantics
+	    </td></tr></table>
+	  </td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.10">Slides</a></td>
+	  <td>Readings: TBD</td>
+	  <td><a href="assignments/assignment.07">Assignment 7</a></td>
+	</tr>
+	<tr>
+	  <td>11/27</td>
+	  <td>Topics that may become great (again)</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.11">Slides</a></td>
+	  <td>Readings: TBD</td>
+	  <td><a href="assignments/assignment.08">Assignment 8</a></td>
+	</tr>
+	<tr>
+	  <td>12/4</td>
+	  <td>Final Presentations; Web Search</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.12">Slides</a></td>
+	  <td>Readings: TBD</td>
+	  <td><a href="assignments/assignment.09">Assignment 9</a></td>
+	</tr>
+	<tr>
+	  <td>12/18</td>
+	  <td>Final Presentations; Speech</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.13">Slides</a></td>
+	  <td>Readings: TBD</td>
+	  <td><a href="assignments/assignment.10">Assignment 11</a></td>
+	</tr>
+	<tr>
+	  <td>Stand-By</td>
+	  <td>Benchmarking</td>
+	  <td><a href="../../../index.html">Kenneth Church</a></td>
+	  <td><a href="lectures/lecture.standby.1">Slides</a></td>
+	  <td>
+	    <ol>
+	      <li><a href="https://www.cambridge.org/core/journals/natural-language-engineering/article/emerging-trends-sotachasing/5E9F9F796159040973053C52C443C1D6">SOTA-Chasing</a></li>
+	      <li><a href="https://github.com/kwchurch/Benchmarking_past_present_future/">Benchmarking Workshop</a>
+	      </ol>
+	  </td>
+	  <td><a href="assignments/assignment.12">Assignment 12</a></td>
+	</tr>
+      </table>
+    </p>
+  </body>
+</html>
+

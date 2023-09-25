@@ -1,0 +1,27 @@
+<h1>HuggingFace Pipelines</h1>
+
+This assignment is based on <a href="https://colab.research.google.com/drive/1D2VCOqfoBPxJpSo6jWTnQY83Qgc81UuC?usp=sharing">this</a>.
+
+<h2>Fill-Mask Task</h2>
+
+Use HuggingFace pipelines to replicate tables 3 and 4 from <a href="https://doi.org/10.1017/S1351324921000231">this paper</a>.
+Do this three times with three different models.  At least one of the three models should be BERT.
+
+<h2>Translation and Feature Extraction</h2>
+
+
+<ol>
+  <li>
+Write a program that inputs a name such as <i>Noah Smith</i>.  Find three author ids in Semantic Scholar that match that name, using
+methods like we used for the first assignment.  But this time, we want to sort author ids by citations, and use the top three.
+  </li>
+  <li>
+    Find the four top papers for each author id.  If there are more than four papers, use the ones with the most citations.
+  </li>
+  <li>Get their titles and abstracts.</li>
+  <li>Translate the titles and abstracts to Chinese and back to English.</li>
+  <li>Repeat, but replace Chinese with French.</li>
+  <li>Use the allenai/specter2_base model on HuggingFace to obtain vectors for these papers, with and without the translations.</li>
+  <li>Plot cosine similarities of these vectors, both with imshow as well as boxplot.</li>
+  <li>Does translation do anything to the vectors?  Does translation make the vectors better or worse (or does it do nothing at all)?  Are the French translations better or worse than the Chinese translations for comparing papers?  How would we make that question precise?</li>
+</ol>

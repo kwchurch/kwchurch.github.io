@@ -1,0 +1,91 @@
+1. What is the main contribution of the paper?
+
+
+
+2. List at least three strengths of the paper.
+
+
+
+3. List at least three points of improvement.
+
+
+
+4. Please provide a detailed discussion of the work itself, focusing on
+   both strengths as well as possible points of improvement.
+
+
+
+
+5. Please specify how original the work described in the paper is.
+
+[] Truly novel: Few people would have come up with these ideas
+[] Creative: Relatively few people in our community would have put these ideas together
+[] Somewhat conventional: A number of people could have come up with this after some thought
+[] Rather straightforward: Obvious or a minor improvement on familiar techniques
+[] Significant portions have actually been done before or done better
+
+6. Please rate the technical content of the paper
+
+[] There are no technical shortcomings or omissions
+[] The technical facts are appropriately described but there are some minor errors or omissions
+[] There are some technical shortcomings but the main idea is generally solid
+[] There are many technical shortcomings which make the descriptions unreliable
+[] The conclusions are not supported by the technical description
+
+7. Please rate the quality of the paper presentation.
+
+[] Well-written in every aspect; a pleasure to read
+[] The essential content is complete and the paper is understandable to most readers
+[] The paper misses a few important details but the major points were clear
+[] Important questions were hard to resolve even with effort
+[] Much of the paper is confusing
+
+8. Please rate the level of impact the work is likely to have in the research community
+
+[] This is seminal work, and will substantially influence future research directions
+[] Some of the ideas, results, or resources will substantially help other people's ongoing research
+[] Interesting but not too influential: the work will be cited but mainly as a comparison or minor contribution
+[] Marginally interesting but may or may not be cited
+[] Unlikely to be cited or useful to other researchers in the field
+
+9. Please rate how the paper discusses and compares to the related work.
+
+[] The related work section is exemplary; the discussion is thorough and insightful
+[] The relevant publications are cited appropriately but the discussion could be more comprehensive or insightful
+[] There are a few missing citations; the discussion does not put the current work in context
+[] Missing many relevant citations; fails to put the work in the context of related work
+[] Missing significant relevant citations or the work is inappropriately cited
+
+10. Please indicate whether other researchers could reproduce the methods and results described in the paper.
+
+[] Fully replicable: the experimental setup is fully transparent, described in detail, and the data is publicly available
+[] The experiments could be reproduced: the experimental setup is clear, the data is described in detail, but is not available outside of the authors' organization
+[] Some of the experiments could be reproduced, but details of the data and experimental setup could be more explicit; the data would not be replicable even inside of the authors' organization
+[] The experiments could not be reproduced: the experimental setup is discussed but there are significant missing details about the experiments or the data
+[] The experiments could not be reproduced: the details of the experimental setup are absent or unclear
+
+11. How carefully have you read this paper?
+
+[] went over it several times
+[] understood all details
+[] carefully, but haven't checked all details
+[] went over it quickly but got the main ideas
+[] just skimmed it
+
+12. How knowledgable are you on the topic?
+
+[] I have published extensively on this topic
+[] I have worked on related topics and have read all the main publications
+[] I have worked on related topics and have a good general understanding of the area
+[] I have a good general understanding of the area
+[] I read very few publications on this topic
+
+13. Recommendation
+
+[] strong accept
+[] accept
+[] weak accept
+[] borderline
+[] weak reject
+[] reject
+[] strong reject

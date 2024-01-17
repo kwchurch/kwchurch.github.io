@@ -1,0 +1,35 @@
+1. Provide an overview of the proposal
+
+
+2. Please evaluate the strengths of the proposal.
+
+
+
+3. Please evaluate the weaknesses of the proposal.
+
+
+
+4. Please rate the quality of the proposal presentation.
+
+[] Well-written in every aspect
+[] The essential content is complete and the proposal is understandable to most readers
+[] The proposal misses a few important details but the major points were clear
+[] The proposal misses several important details.
+[] Much of the proposal is confusing
+
+5. How knowledgable are you on the topic?
+
+[] I'm an expert
+[] I have very good idea of this topic
+[] Knowledgeable 
+[] I have some limited expertise.
+[] Not my area of expertise.
+
+6. Overall rating
+
+[] Excellent Outstanding proposal in all respects; deserves highest priority for support.
+[] Very Good High quality proposal in nearly all respects; should be supported if at all possible.
+[] Good A quality proposal, worthy of support.
+[] Fair Proposal lacking in one or more critical aspects; key issues need to be addressed.
+[] Poor Proposal has serious deficiencies.
+

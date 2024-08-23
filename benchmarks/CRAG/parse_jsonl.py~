@@ -1,0 +1,5 @@
+import sys,json
+
+for line in sys.stdin:
+    j = json.loads(line.rstrip())
+    

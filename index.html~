@@ -1,0 +1,92 @@
+<h1>Kenneth Church: Home Page</h1>
+<img src="https://assets-global.website-files.com/657141b092d019b05ff5788e/657141b092d019b05ff57af0_kenneth.webp" width="200"\>
+<p>Northeastern University
+
+<h2 id="contact">Contact</h2>
+
+<ol>
+  <li><a href="mailto:kenneth.ward.church@gmail.com">gmail</a></li>
+  <li><a href="mailto:k.church@northeastern.edu">Northeastern University</a></li>
+  <li><a href="https://github.com/kwchurch">GitHub</a></li>
+</ol>
+
+<h2>Home Pages</h2>
+  <ol>
+    <li><a href="https://kwchurch.github.io/">Personal Home Page</a></li>
+    <li><a href="https://www.khoury.northeastern.edu/people/kenneth-church/">Northeastern University: Computer Science</a></li>
+    <li><a href="https://ai.northeastern.edu/ai-our-people/kenneth-church/">Northeastern University: The Institute for Experiential AI (EAI)</a></li>
+    </ol>
+
+<h2>Bio</h2>
+Ken Church works on large language models (LLMs).
+He was an early advocate of
+empirical methods and a founder of the Conference on Empirical
+Methods in Natural Language Processing (EMNLP).
+He received his PhD from MIT in 1983, and worked for 20 years at AT&T Bell Labs.
+After that he worked at Microsoft, Hopkins, IBM, Baidu and Northeastern.
+He has worked on many applicationsof LLMs including web
+search, academic search, spelling correction, word-sense disambiguation, terminology, translation, lexicography,
+compression, optical character recognition, speech (recognition,
+synthesis, and diarization).
+</p>
+<a href="CV.pdf"">CV</a>
+
+<h2>Honors</h2>
+
+<ol>
+  <li>President of the Association for Computational
+    Linguistics (ACL) in 2012</li>
+  <li>President of ACL SIGDAT (the group that organizes
+  EMNLP) from 1993 until 2011</li>
+  <li>AT&T Fellow (2001)</li>
+  <li>ACL Fellow (2015)</li>
+  <li><a href="https://www.acm.org/media-center/2024/january/fellows-2023">ACM Fellow</a> (2023)</li>
+  </ol>
+
+<h2>Teaching</h2>
+
+<ol>
+<li><a href="teaching/2023-fall/CS6120/syllabus.html">2023-Fall: CS 6120</a></li>
+<li><a href="teaching/2024-spring/CS7290/Syllabus.pdf">2024-Spring: CS 7290</a></li>
+<li><a href="teaching/2025-spring/CS7290/Syllabus.pdf">2025-Spring: CS 7290</a></li>
+</ol>
+
+<h2>Publications</h2>
+<ol>
+  <li><a href="https://scholar.google.com/citations?user=E6aqGvYAAAAJ&hl=en">Google Scholar</a> (h-index: 72)</li>
+  <li><a href="https://www.semanticscholar.org/author/Kenneth-Ward-Church/2244184">Semantic Scholar</a> (h-index: 56)</li>
+  <!-- <li><a href="https://orcid.org/0000-0001-8378-6069">ORCID</a></li> -->
+  <li>    <a
+    id="cy-effective-orcid-url"
+    class="underline"
+     href="https://orcid.org/0000-0001-8378-6069"
+     target="orcid.widget"
+     rel="me noopener noreferrer"
+     style="vertical-align: top">
+     <img
+        src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+        style="width: 1em; margin-inline-start: 0.5em"
+        alt="ORCID iD icon"/>
+      https://orcid.org/0000-0001-8378-6069
+    </a></li>
+
+  <li><a href="http://recommendpapers.xyz/lookup_author?id=2244184&fields=papers.venue,papers.citationStyles,papers.s2FieldsOfStudy,name,authorId,citationCount,paperCount,hIndex,papers.title,papers.citationCount,papers.authors,papers.externalIds&limit=10">JSALT-2023 Better Together (for me)</a></li>
+</ol>
+
+
+<h2>Demos</h2>
+<!-- <a href="https://www.semanticscholar.org/api-gallery/better-together">JSALT-2023 Better Together Demo (from Semantic Scholar)</a> -->
+<a href="http://recommendpapers.xyz">Recommendations for Academic Papers</a>
+
+<h2>Startup Company</h2>
+
+<a href="https://www.vecml.com">VecML</a>
+
+
+<h2>Misc</h2>
+
+<a href="research/Semantic_Scholar_abstracts_by_language.txt">Semantic Scholar Abstracts by Language</a>
+
+<h2>Recent Talks</h2>
+
+<a href="slides/BUCC-2025.pptx">BUCC</a>

@@ -1,0 +1,337 @@
+<html>
+  <body>
+<p><b><font color="red">Students were asking for more feedback on
+homeworks.  My comments will be in red.
+</font></b></p>
+<p><b><font color="red">
+These comments are intended to be helpful (but they won't
+impact grades).  As we have discussed, homeworks are graded as
+acceptable/unacceptable.  So far, I haven't seen any that are
+unacceptable.
+</font></b></p>
+<p><b><font color="red">
+Let me start with abstracts.  I'll post
+these comments in public where everyone can see them, but without
+naming which abstracts were written by whom.  If you find this
+feedback useful (or not), please let me know.  In future weeks, as
+abstracts improve, I will post comments on tweets, reviews, etc.  But let's
+start with abstracts.
+</font></b></p>
+<p><b><font color="red">
+I'm working with a set of 10 abstracts that I downloaded from
+courseworks soon after the deadline (plus one from email).  If you don't see your abstract
+here, feel free to contact the TA (Jianpu Ma jm4437@columbia.edu) to
+make sure that he graded it.
+</font></b></p>
+
+
+<p><b><font color="red">Specific comments for each abstract can be
+      found under each abstract.  For this exercise, I'll try to
+      identify a point for each abstract.  Ideally, the abstract would
+      lead with a topic sentence that introduces the point, and end
+      with a concluding sentence that summarizes the point.  The body
+      of the abstract should stay on message.
+</font></b></p>
+
+<p><b><font color="red">As for the content, as mentioned in class, I
+      was hoping that the point would be a greater appreciation of
+      resources (such as WordNet).  Unsupervised statistics on corpora
+      (such as PMI and Word2vec) are great in so far as they go, but
+      don't expect unsupervised methods to do everything.  However,
+      many students chose to focus more on what's hot (unsupervised
+      statistics) and less on what I was hoping to discuss (resources).
+</font></b></p>
+
+
+<p><b><font color="red">Let me start with three abstracts where it is
+      relatively easy to find the point, and both the topic sentence
+      and the concluding sentence are on message.  Most (7 out of 10)
+      abstracts didn't do that.
+</font></b></p>
+
+<ol>
+  <li>
+This survey paper introduces the nuance of the hand-crafted lexical
+resource (HCLR) WordNet and argues for the continued place of HCLR's
+in natural language processing research despite preliminary successes
+of unsupervised, machine-generated resources such as word embeddings.
+The power of HCLR's lies not only in their innate utility but in their
+position as a ground-truth in research.  We demonstrate that HCLR's
+still outperform machine-generated resources on several tasks, as well
+as unite other research goals as a common baseline resource against
+which all developments can be compared.  Additionally, HCLR's are
+still state-of-the-art in interpretability and we outline possible
+directions for using HCLR's to help interpret the outputs of other
+systems.
+<p><b><font color="red">Point: Resources (HCLR) have two advantages over
+      embeddings: (1) performance, and (2) interpretability.  Both the
+      topic sentence and the concluding sentence are on point (unlike
+      most of the other abstracts below).  Very nice!
+</font></b></p>
+</li>
+
+<li>
+The success of recent neural-network-based approaches to classic NLP
+tasks (e.g., machine translation, dependency parsing, syntactic
+parsing, and sentiment analysis) has given rise to a "throw it into a
+bigger neural net" attitude towards problem solving within the
+field. In this sense, lexicography can be seen as a case-in-point:
+rather than viewing lexicographic tasks as pipelines of
+meticulously-tuned compartmental modules requiring insights from
+linguists (the philosophy behind projects like WordNet, FrameNet,
+PropBank, and innumerable hand-tagged corpora), "end-to-end" models
+wherein only the input and output are required and neurons do the rest
+are now in vogue. In this survey, we will explore both the
+lexicography and "deep NLP" literature, with an emphasis on the
+shortcomings of neural approaches (e.g., lack of interpretability) and
+especially the "elephant in the room" -- namely, that behind the
+"magic" of neural-net approaches to these tasks lies the human
+linguistic labor necessary to obtain high-quality training and test
+data.
+
+<p><b><font color="red">Point: A criticism of "Deep NLP" on two grounds: (1) lack of interpretability,
+      and (2) attributing too much success to "magic" and failing to acknowledge the contribution of human judgment in various important steps such as the preparation of test and training data.
+Both the topic sentence and the concluding sentence are n point.  Very nice!
+</font></b></p>
+</li>
+
+
+  <li>
+Internet has changed how people collaborate in word embedding research
+and natural language processing in general.  During the early days of
+word embedding research, there were no annotated datasets, and thus a
+select few groups of people received funds to create annotated
+datasets.  WordNet and FrameNet are two examples.  Nowadays it has
+become relatively easy to distribute human labor efforts through using
+crowdsourcing systems, such as Amazon Mechanical Turk to generate
+annotated data sets required for natural language processing research.
+Moreover, this trend hasn't just occurred only on data, but also the
+tools required for performing natural language processing research.
+Open sourcing language toolkits such as NLTK and releasing pretrained
+language models, such as Word2Vec have made performing natural
+language processing tasks more accessible.
+<p><b><font color="red"> Point: Technology has changed collaboration.
+      The topic sentence and the conclusion are both on point.  I'm
+      concerned about technical correctness.  In fact, there were
+      quite a few annotated resources before WordNet (such as the
+      Brown Corpus).  While I may disagree with some of the facts, it
+      is still nice to see an argument where it is relatively easy to
+      connect the dots between the topic sentence and the concluding
+      sentence and the point.
+</font></b></p>
+
+<p><b><font color="red">The seven abstracts below don't do what the two
+      abstracts above do.  That is, in the seven abstracts below, I found it
+      hard to connect the dots between the topic sentence and the
+      concluding sentence and the point.
+</font></b></p>
+<p><b><font color="red">
+A common (but not good) practice is to end with
+a discussion of future work.  The last three abstracts below do that.
+</font></b></p>
+</li>
+
+<li>
+Automation is increasingly making our lives easier, but is it actually
+making the job of lexicographers harder? Are there certain natural
+language processing tasks, such as word sense disambiguation, that
+will always be left to humans? Gregory Grefenstette predicted in 1998
+that automation would completely eliminate the need for human
+lexicographers. Progress like Yarowsky's in 1995, on an unsupervised
+word sense disambiguation algorithm, supports this view. On the other
+hand, Rundell and Kilgarriff went on to produce work suggesting the
+opposite -- that automation would instead make lexicographers' jobs
+more complicated while automating some of the drudgery. This survey
+paper sides with Rundell, as studies published since Grefenstette’s
+have shown the many challenges involved in automating dictionary
+creation and word sense disambiguation. Some overarching advancements,
+such as the "One sense per discourse" rule developed by Gale, Church,
+and Yarowsky, have helped refine machines' ability to disambiguate
+word sense. Nonetheless, a recent experiment in automating
+lexicography to varying degrees (the Solvene Lexical Database)
+concluded that automated lexicographical procedures are very useful,
+but only because they facilitate the work of human lexicographers by
+automating tedious tasks.
+<p><b><font color="red">Point: Automation actually makes lexicography
+      easier.  I really liked the way that this abstract started out,
+      and the fact that it demonstrated a command of the literature
+      that goes well beyond the assigned papers (though I worry that
+      some of the references may be a bit off message).  I'm concerned
+      that the set up leaves the reader a bit unsure where the
+      argument is going.  And more seriously, the abstract ends
+      without an obvious concluding sentence that clearly states the
+      take-away message.  The abstract would be stronger if there was
+      one more sentence such as: In short, we conclude that automation
+      actually makes lexicography easier, despite various arguments
+      that have been made elsewhere to the contrary.
+</font></b></p>
+<li>
+Linguists classify words on the basis of their co-occurrence with
+other words. With computation facilities, automatic methods such as
+association ratio can be used to deal with large-scale corpora. Based
+on the concept of mutual information, association ratio is able to
+find interesting language patterns, not only noun/noun relationships,
+but also subject/verb/object and other lexico-syntactic relationships
+between words. The adjustable window size parameter in association
+ratio allows it to reveal language phenomena of different
+scales. Although association ratio takes only distributional evidence
+into account and the measure is superficial without preprocesses, it
+can be applied in a systematic way over large body of material because
+of its consistency and productivity. In lexicography, association
+ratio can be used to indicate the association of words which are
+strong enough to be important but not so strong to pop out in a
+concordance, and it provide a powerful set of suggestions to the
+lexicographer in choosing a set of semantic tags. Association ratio
+could be an important tool to aid the lexicographer.
+
+<p><b><font color="red"> Point: Summary of my PMI paper.  If the real
+      point is the final sentence (usefulness of association ratio),
+      then the topic sentence doesn't exactly introduce that point.
+      Moreover, the topic sentence isn't correct.  Many linguists
+      (such as Chomsky) object to the use of distributional evidence,
+      largely as a reaction to his thesis adviser (Harris).  Some
+      linguists (like Firth and Harris) classify words on the basis of
+      distribution, and some don't.
+</font></b></p>
+</li>
+
+<li>
+We are going to compare wordnet and word2vec major on their own
+function and the similarity computation between words.  First, we
+introduce the rise of new type encyclopedias like Wiki and Wordnet.
+We introduce when and how word2vec is proposed and what’s the
+intuition of building word2vec.  Next, we discuss the word
+association, and the similarity computation of both wordnet and
+word2vec.  Several experiments from different aspects are done for
+evaluating the advantages and disadvantages of wordnet and word2vec
+similarity computation.  At last, we have conclusion that word2vec is
+a very popular tool using in NLP which use numeric vector to represent
+a word while wordnet is more a kind of very powerful E-dictionary.
+Whether to choose wordnet or word2vec depends on the task you are
+going to do.
+<p><b><font color="red"> Point: comparison of wordnet and word2vec.
+      Conclusion: one is better for some apps and the other is better
+      for other apps.  If the conclusion is the point, it should be
+      possible to rewrite the topic sentence to make it a bit clearer
+      where the argument is going.  The discussion of encyclopedias
+      seems to be a bit off message.
+</font></b></p>
+</li>
+<li>
+Understanding the word associations that are formed in the mind is
+important to understand the way human acquire language throughout a
+lifetime of learning. Word associations are suggested as the mirror of
+the conceptual connection model in human mind. Therefore, natural
+language processing system focused on the use of words association to
+implement the neural network. For example, kana-kanji conversion is a
+Japanese standard input method, which is based on the set of Kanji
+characters share the same phonetic sound. The use of the associative
+functionality of neural network is to avoid the ambiguity of the
+homonym selection among abundance of homonyms. One of the advantage of
+the associative functionality is enabled word preference of user been
+reflected in the network. The result of associative functionality
+could be benefit for lexicographer.
+<p><b><font color="red"> Point: Advocate the use of word associations
+      as a theory of langauge acquisition.  The topic sentence is on
+      point but the concluding sentence is not.  The discussionof
+      kana-kanji conversion is interesting, but it isn't clear how
+      that connects to the point, or the topic sentence or the
+      concluding sentence.
+</font></b></p>
+</p><p>  The last three abstracts end with future work.  Ending
+      with future work isn't great, not only because it makes it
+      harder for the reader to figure out what the point is, but also
+      because it can come across as an argument against the point.  If
+      one feels a need to mention future work, it is better to frame
+      it as suggestions for how the reader can follow up (and join in
+      on the fun).
+</font></b></p>
+</li>
+<li>
+With the coming of information age, not only dictionaries became
+digital, the methods for building lexical resources were also
+experiencing a significant change. This survey focuses on the
+transition of lexicography during the recent decades. In this survey,
+we discuss how lexicographers use computational aids to build
+lexicons, how non-experts collaborate and contribute to scientific and
+linguistic resources, and how can computers expand and create lexicons
+automatically. We also explore some potential future trends in
+building multilingual lexicon and large-scale lexical resources.
+<p><b><font color="red"> Point: A survey of how technology has changed
+      the way that dictionaries are being constructed.  The topic
+      sentence is on message.  It is common to end with future work
+      rather than a conclusion that drives home the point.
+</font></b></p>
+</li>
+
+<li>
+Given the tremendous and growing amount of text data, automation of
+various tasks in the field of NLP allows field professionals to
+incorporate more data into their work at a faster pace. One such task
+is building lexical semantic resources for words, once done by humans
+by hand, and one of the current methods for modeling semantic and
+syntactic relationship between words is word embedding. There are
+multiple methods for generating word embeddings, including skip-gram
+negative sampling, matrix factorization, and point-wise mutual
+information, and among the more cited resources of lexicographical
+information are tools like word2vec, GloVe, and a human-curated
+lexical database WordNet. Because a notion that a word's meaning can
+be derived "from the company it keeps" a popular one in NLP, which
+words make up the given word's company is important. In this survey we
+will examine the literature comparing the outputs of several popular
+word embedding tools, and discussing the dissimilarities between
+outputs of different tools and differences between outputs from
+various iterations of the same method. We believe that further work
+examining these differences and similarities will help us understand
+the merits of these tools, uncover their possible shortcomings, and
+help develop new methods.
+<p><b><font color="red"> Point: Advocate the use of fully supervised
+      automation to take advantage of larger and larger corpora.
+      WordNet (and resources more generally) are mentioned only in
+      passing.  Conclusion seems to be more about future work than the
+      point.  (See comments about future work for the previous abstract.)
+</font></b></p>
+</li>
+
+<li>
+Determining the meanings of sentences can be accomplished using a
+dictionary, which contains static definitions of potential
+words. WordNet seeks to provide an alternative strategy to determine
+meaning, where English nouns, verbs, adjectives, and adverbs are
+categorized by their synonyms and semantic relations connect synonym
+sets (synsets). WordNet entries are stored as pairs of forms, or
+strings of ASCII characters, and senses, or a synonym set. A "word" is
+when a form has a sense in a given language. WordNet at this time
+currently has over 118,000 unique forms, 90,000 unique senses, and
+166,000 words. It also utilizes several semantic relations, including
+synonymy (similar meaning), antonymy (opposite meaning), hyponymy and
+hypernymy (hyponyms are "specific examples of" hypernyms), meronymy
+and holonymy (meronyms are "part of" holonyms) to better understand
+words. These relations are represented as pointers between synonym
+nets or forms. Currently, WordNet struggles with polysemy. To combat
+this problem, computational linguists attempt to limit the domain to
+specific subject matter, like narrowing the domain to financial
+institutions with the word "bank." Further work could be done to
+improve this domain reduction process using artificial intelligence.
+
+<p><b><font color="red">Point: Summary of WordNet.  The topic sentence
+introduces dictionaries, which isn't exactly on point since WordNet is
+more of an ontology than a dictionary.  Dictionaries are more about
+definitions and examples, and less about relations among entries (such
+as synonymy, antonymy, etc.)  The concluding sentence ought to ensure
+that the reader remembers the point, but this concluding sentence
+talks about further work using methods from another field.  While that
+may or may not be a fair criticism of WordNet, if that was the point
+of the abstract, the topic sentence should have introduced that point
+with something like: It is possible to improve on WordNet by
+introducing domain reduction processes from artificial intelligence.
+But then the body of the abstract would be expected to back that point
+up with some additional evidence, but the concluding sentence is
+merely suggesting further work, which isn't enough to justify this
+subject as the main point of the paper.
+</font></b></p>
+</li>
+
+</ol>
+  </body>
+</html>

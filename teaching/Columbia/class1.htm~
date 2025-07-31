@@ -1,0 +1,325 @@
+<html>
+  <b>
+COMS6998 Topics in Human Language Technology (HLT)</b>
+  <br>
+  Kenneth Church
+  <br>
+  Kenneth.Ward.Church@gmail.com
+  <p>
+    Slides for first class are posted here: <a href="slides/intro.pptx">ppt</a> and <a href="slides/intro.pdf">pdf</a>.
+<p>
+Survey papers (and most conference papers) tend to be boring.  It is ok to be wrong, but please don't be boring.
+<p>
+The main assignment will be to write a survey paper, due at the end of
+the term. The survey paper should discuss at least one seminal paper, and its impact on the subsequent
+literature.
+<p>
+  Each week, there will be an assignment to read a seminal paper,
+  most of which are at least a decade old, with at least 1k citations in <a href="https://scholar.google.com/">Google Scholar</a>.
+<p>
+To encourage students to keep up with the reading, there will be an
+assignment each week: imagine you are writing a survey paper on the
+paper(s) assigned for that week and their impact on the subsequent
+literature, including the literature of today. For the imaginary
+survey paper, I want to see:
+<ol>
+  <li>an abstract of no more than 200 words outlining the argument in the imaginary paper </li>
+  <li>citation counts for the assigned paper(s) (from Google Scholar)</li>
+  <li>a partial bibliography of 10-30 references of papers that would
+  be appropriate to discuss in the imaginary survey</li>
+  <li>1-3 tweets (no more than 140 characters each), pitching the
+  imaginary survey. The imaginary tweets should identify an audience
+  that might not read the imaginary survey (if it existed) without
+  more motivation to do so. The imaginary tweets should provide the
+  imaginary audience with a reason to read the imaginary survey</li>
+  <li>a review of the imaginary survey paper (using <a href="ReviewForms.txt">a standard review form</a>), from the perspective of an imaginary reviewer.</li>
+</ol>
+<p>
+The point is to try to think about how other people would think about
+these issues. Too many people are too focused on their own immediate
+needs and there own perspectives, and not enough about how things will
+stand up to the test of time, from lots of different perspectives.
+<p>
+The first public presentation that I gave was on my own research.  Many rock bands start out doing covers before
+they write their own music.  So too, I believe students should start out presenting covers of seminal papers before
+presenting their own research.  There's lots of advice out there on public speaking such as <a href="https://www.youtube.com/watch?v=k8GvTgWtR7o">this</a>.
+<p>
+I'd like to encourage students to practice presentation skills in a
+supportive environment, so it isn't a good idea to grade presentations.
+In addition, it may not be practical for everyone to give a
+presentation, especially if there are too many students and too little
+time.
+<p>
+The first assignment is to vote <a href="https://docs.google.com/spreadsheets/d/1Ov3vH3Ssw007QahvIg31TM-eGwrD7JkKGTkmSqK4r7o/edit#gid=265617710">here</a>
+on papers/videos/topics you would
+like to cover in the course (as well as which papers you would like
+to present).  A draft ballot is provided below.  The first assignment
+involves skimming as much of this work as possible so you can cast
+reasonably informed votes.
+<p>
+  For each of the 14 items below, please vote a number between 0 and 3
+  for how many weeks you would like to spend on that item.  The sum of
+  your votes should add up to about a dozen weeks.  In addition,
+  please identify 3 topics you would like to present, rank ordered
+  from 1 (top choice) to 3 (3rd choice).
+<p>
+Most of the references are available for free over the web, but there
+  are a few books that aren't that expensive, but may require some
+  lead time to purchase.  I will present a final syllabus after the
+  votes are cast (hopefully, before the 2nd week of class).
+
+<ol>
+  <li>Interdisciplinary connections between speech & language:
+<a href="https://www.superlectures.com/interspeech2016/ketchup-interdisciplinarity-and-the-spread-of-innovation-in-speech-and-language-processing">
+      Ketchup, Interdisciplinarity, and the Spread of Innovation in Speech and Language Processing</a>.
+    <a href="http://web.stanford.edu/~jurafsky/">Jurafsky</a> is an
+    author of a
+    popular <a href="http://www.cs.colorado.edu/~martin/slp2.html">text
+    book</a>.  He gave a similar keynote at ACL, but when presenting
+    this material to a speech audience, he gives the speech community
+    more credit for methods that have become popular in computational
+    linguistics.
+    See <a href="http://languagelog.ldc.upenn.edu/myl/ldc/swung-too-far.pdf">A
+    Pendulum Swung Too Far</a> for my take on the history of popular
+    trends in speech and language.</li>
+
+    
+  <li>The speech invasion:
+    <ol>
+<li><a href="https://faculty.cs.byu.edu/~ringger/CS401R/papers/BrownEtAl_Alignment-CL93.pdf">The Mathematics of Statistical Machine Translation: Parameter Estimation</a></li>
+<li><a href="http://dl.acm.org/citation.cfm?id=974260">A stochastic parts program and noun phrase parser for unrestricted text</a></li>
+<li><a href="http://luthuli.cs.uiuc.edu/~daf/courses/signals%20ai/papers/hmms/01165342.pdf">An Introduction to Hidden Markov Models</a></li>
+<li><a href="http://lanethames.com/dataStore/ECE/InfoTheory/shannon.pdf">Shannon's Theory of Communication</a></li>
+<li><a href="http://languagelog.ldc.upenn.edu/myl/Shannon1950.pdf">Shannon's Estimate of the Entropy of English</a></li>
+  </ol>
+  Actually, speech wasn't always all that supportive of information theory and statistical methods.  There is some discussion of this shift in <a href="http://acl-arc.comp.nus.edu.sg/archives/acl-arc-090501d3/data/pdf/anthology-PDF/J/J93/J93-1001.pdf">my paper with Mercer</a>, especially section 1.2, as well a recent <a href="https://www.superlectures.com/interspeech2016/isca-medalist-for-leadership-and-extensive-contributions-to-speech-and-language-processing">keynote by Makhoul</a>.
+<p>It is suggested in this recent <a href="https://cacm.acm.org/magazines/2014/1/170863-a-historical-perspective-of-speech-recognition/fulltext">survey</a>
+that CMU has always been advocating current popular empirical approaches, but <a href="https://www.youtube.com/watch?v=McrSCrl4mUc">here</a> is an old video that talks more about knowledge than data.
+Even at that time,
+brute force engineering tends to do better on leaderboards than more abitious approaches, at least in the short term: <a href="https://www.youtube.com/watch?v=N3i6NoUZsSw&t=262s">Harpy</a>.
+<p>The majority today believes there is no data like more data, but <a href="https://pdfs.semanticscholar.org/f489/a49280c3138686ea8793081e1904f399067b.pdf">some</a>
+have argued that we ought to be able to do more with less.  We shouldn't need fantastic amounts of data to get the job done.
+</li>
+
+<li>Speech vs. Language and
+the <a href="http://files.eric.ed.gov/fulltext/ED019631.pdf">Case for
+Case</a>: It is interesting to contrast Fillmore's views on spelling
+with Mercer's in their ACL Lifetime Achievement
+Awards: <a href="https://www.youtube.com/watch?v=KTrHQjkGmz0&feature=youtu.be">here</a>
+and <a href="http://techtalks.tv/talks/closing-session/60532/">here</a>.
+Fillmore is a linguist who believes that sound and meaning are better
+sources of evidence than spelling, whereas Mercer
+believes <a href="https://en.wikiquote.org/wiki/Fred_Jelinek">every
+time I fire a linguist, my performance goes up</a> (as discussed in the introduction to <a href="http://techtalks.tv/talks/closing-session/60532/">video</a>,
+Jelinek said it, but Mercer believes it).  Mercer would love
+to remove people (linguists) from the optimization.  I suspect Mercer
+would also like to remove people from other optimizations such as Wall
+Street and government),
+but <a href="https://www.theguardian.com/politics/2017/feb/26/robert-mercer-breitbart-war-on-media-steve-bannon-donald-trump-nigel-farage">hedge
+funds and politics</a> go beyond the scope of this course.  See <a href="https://www.youtube.com/watch?v=jQewMYKU8R0">here</a> for an example of how one of the links above is
+being picked up by the mainstream press.
+</li>
+
+<li>Parsing and part of speech tagging used to be one of the most
+important topics in computational linguistics.  The Penn Treebank can
+be downloaded
+from <a href="https://catalog.ldc.upenn.edu/ldc99t42">here</a>.
+The <a href="http://dl.acm.org/citation.cfm?id=972475">Penn
+Treebank</a> has a huge number of citations, and many of the papers
+that cite this paper are also highly cited.  Google scholar makes it
+easy to find these papers with links
+like <a href="https://scholar.google.com/scholar?q=related:wC4F9tvcbO4J:scholar.google.com/&hl=en&as_sdt=0,33&as_vis=1">this</a>.</li>
+
+<li>Whatever you measure, you get.  When
+<a href="http://www.aclweb.org/anthology/P02-1040.pdf">BLEU</a> was
+first introduced, it was impressive that the community could agree on
+a single evaluation metric, and that that metric might be correlated
+with human judgments.  But when Och proposed optimizing the metric
+(<a href="https://pdfs.semanticscholar.org/e120/12eba40a77fdf5822d722db40a04310b98d0.pdf">here</a>),
+there was widespread concern that the optimization might find a way to
+game the metric, resulting in a solution that would score high on the
+objective metric (BLEU), but less well on subjective evaluations with
+humans.  Apparently, the metric stood up remarkably well to
+optimizing, though a number
+of <a href="https://en.wikipedia.org/wiki/Evaluation_of_machine_translation">alternatives</a>
+have been proposed subsequently.</li>
+
+<li>Machine Learning has a long history.  Much of the early work is
+based on simple methods such as linear separators, which can be used
+to distinguish relevant documents from irrelevant documents in
+<a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval</a>, <a href="https://arxiv.org/pdf/cs/0205070.pdf">positive sentiment from negative sentiment</a>,
+<a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=mosteller+and+wallace">Hamilton's essays from Madison's</a>, and so on.
+Methods such as <a href="https://en.wikipedia.org/wiki/Support_vector_machine">support vector machines</a> and
+<a href="https://en.wikipedia.org/wiki/Logistic_regression">logistic regression</a> tend to be cited even more than applications.
+Tools such as <a href="http://scikit-learn.org/stable/">sklearn</a> and <a href="https://www.csie.ntu.edu.tw/~cjlin/libshorttext/">libshorttext</a>
+are also heavily cited, as well as datasets such as <a href="https://archive.ics.uci.edu/ml/datasets/Reuters-21578+Text+Categorization+Collection">this</a>.</li>
+
+<li>There is a long tradition of questioning Machine Learning and Artificial
+  Intelligence.  <a href="https://en.wikipedia.org/wiki/John_R._Pierce">Pierce</a> chaired the <a href="https://en.wikipedia.org/wiki/ALPAC">ALPAC</a> committee (which is credited for defunding research
+  on Machine Translation).  He is also credited with defunding speech research with this letter to JASA:
+  <a href="http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=355202">Whither
+  Speech Recognition</a>.  It is convenient to dismiss Pierce's
+  criticisms (because they are so inconvenient), but Pierce is a force
+  that should be taken seriously.  At Bell Labs, he made contributions to
+  speech including <a href="https://en.wikipedia.org/wiki/Pulse-code_modulation">
+a coding standard</a> which is still used in WAV files
+  today.  He was also involved in more significant projects such as the transistor
+  and satellite telecommunications, and served as Vice President of Research.
+Many of the arguments in the ALPAC report are still relevant
+  today.  
+The full report is well worth reading, and can be found <a href="https://www.nap.edu/read/9547/chapter/1">here</a>.
+It is ok for the next generation to reject positions by held previous generations,
+but it isn't right to reject a position without reading it first.
+</li>
+  
+
+  <li>A recent best
+  seller, <a href="https://weaponsofmathdestructionbook.com/">Weapons
+  of Math Destruction</a> (WMD), continues the tradition of
+  questioning Machine Learning by pointing out that machines (opaque
+  black boxes) are making lots of important decisions like who gets
+  into a good school, and who gets a loan and who goes to jail.  If
+  the machines are merely optimizing an objective function like making
+  money, they will do so for better or for worse.  How can society
+  enforce policies about fairness, if even those of us who built the
+  machines have little understanding of what the optimizations are doing
+  and why?</li>
+
+
+<li><a href="https://en.wikipedia.org/wiki/Marvin_Minsky">Minsky</a> and
+<a href="https://en.wikipedia.org/wiki/Noam_Chomsky">Chomsky</a> were both at Harvard in the 1950s, and they
+both started their careers by questioning the received wisdom at the
+time.  <a href="https://en.wikipedia.org/wiki/Perceptrons_(book)">Perceptrons</a>
+is a reaction to machine learning
+and <a href="https://en.wikipedia.org/wiki/Syntactic_Structures">Syntactic
+Structures</a> is a reaction to <a href="https://en.wikipedia.org/wiki/N-gram">ngram language models</a>.  While Minsky
+and Chomsky don't agree with one another on many issues, their work
+had a chilling impact on various research directions for several
+decades.  Many of the methods that they objected to have since
+regained popularity, and many of their objections are being ignored and
+forgotten (perhaps for good reasons, and perhaps not).
+<p>
+On a more positive note, in addition to questioning the received wisdom at the time,
+this work has also inspired some great work in other fields (see <a href="https://en.wikipedia.org/wiki/Syntactic_Structures#cite_note-115">how Knuth spent his honeymoon</a>).
+Work that appeals across multiple fields has a better chance of becoming highly cited.
+<p>
+<a href="https://scholar.google.com/scholar?hl=en&q=Chomsky">Chomsky</a>
+has published an amazing number of books.  A number of videos are available on <a href="https://www.youtube.com/results?search_query=Chomsky">Youtube</a> and
+<a href="https://www.netflix.com/search?q=Chomsky">Netflix</a>.
+Minsky is less organized/disciplined (and more eclectic).
+This <a href="https://www.ted.com/talks/marvin_minsky_on_health_and_the_human_mind">TED
+talk</a> ends with Minsky objecting to neural nets, as he ran out of
+time.
+</li>
+
+
+
+  <li><a href="http://projektintegracija.pravo.hr/_download/repository/Kuhn_Structure_of_Scientific_Revolutions.pdf">The
+    Structure of Scientific Revolutions</a>.  How does science (and
+    engineering) progress?  Kuhn suggests the process has made
+    significant progress over time (unlike <a href="http://languagelog.ldc.upenn.edu/myl/ldc/swung-too-far.pdf">
+a pendulum swinging back
+    and forth</a>), and that the progression is dramatic and far from
+    incremental.  According
+    to <a href="https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions">Wikipedia</a>,
+    Kuhn argues that the evolution of scientific theory does not
+    emerge from the straightforward accumulation of facts, but rather
+    from a set of changing intellectual circumstances and
+    possibilities.  Kuhn dated the genesis of his book to 1947, when
+    he was a graduate student at Harvard University and had been asked
+    to teach a science class for humanities undergraduates with a
+    focus on historical case studies. Kuhn later commented that until
+    then, "I'd never read an old document in science." Aristotle's
+    Physics was astonishingly unlike Isaac Newton's work in its
+    concepts of matter and motion. Kuhn wrote "... as I was reading
+    him, Aristotle appeared not only ignorant of mechanics, but a
+    dreadfully bad physical scientist as well. About motion, in
+    particular, his writings seemed to me full of egregious errors,
+    both of logic and of observation." This was in an apparent
+    contradiction with the fact that Aristotle was a brilliant
+    mind. While perusing Aristotle's Physics, Kuhn formed the view
+    that in order to properly appreciate Aristotle's reasoning, one
+    must be aware of the scientific conventions of the time. Kuhn
+    concluded that Aristotle's concepts were not "bad Newton," just
+    different.</li>
+
+  <li><a href="http://www.cs.cornell.edu/home/llee/papers/ptl93.home.html">Embeddings</a> have become popular recently
+  with <a href="https://en.wikipedia.org/wiki/Word2vec">word2vec</a>.
+    A popular <a href="https://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization">NIPS paper</a>
+has suggested that word2vec is a factored version of
+    <a href="http://dl.acm.org/citation.cfm?id=89095">my work with
+    Hanks</a> on pointwise mutual information (PMI).  Scatter plots comparing word2vec with PMI show a modest correlation, but far from perfect.  That is, word pairs with large PMI scores also tend to receive large word2vec scores (and vice versa), but there are plenty of exceptions.  The exceptions might be due to hyper parameters, many of which aren't mentioned in the NIPS paper, but they tend to matter in practice (<a href="https://www.transacl.org/ojs/index.php/tacl/article/download/570/124">TACL</a>).
+<p>
+Factoring is
+    typically performed using an iterative optimization such
+    as <a href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent">Stochastic
+    gradient descent</a>.  It is easy to download code (and
+    precomputed vectors) for
+    both <a href="https://code.google.com/archive/p/word2vec/">Word2vec</a>
+    and <a href="https://nlp.stanford.edu/projects/glove/">GloVe</a>.
+    It is popular these days to factor PMI
+    with <a href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent">stochastic
+    gradient descent</a>, though it isn't obvious why that should be
+    better
+    than <a href="https://en.wikipedia.org/wiki/Singular_value_decomposition">singular
+    value decomposition</a>
+    and <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">Latent
+    Semantic Analysis</a>.
+<p>
+If the matrix that we are factoring isn't positive definite, then the
+    optimization might be looking for a solution that may not exist.
+    It might be useful to generalize the optimization to consider
+    solutions where the left eigenvector need not be the same as the
+    right eigenvector, or where the solution can make use of imaginary
+    numbers.
+<p>
+Another concern for factoring is that it isn't all that
+    obvious that vector spaces are more convenient than alternative
+    representations such as graphs.  It is common for embeddings to
+    use K=300 dimensions, but most words don't appear K times in the
+    corpus.  It is hard to justify K parameters for a word that
+    doesn't appear K times.</li>
+
+<li>Embeddings can be viewed as a reaction to lexicography (e.g., building lexical resources by hand).
+In <a href="http://dl.acm.org/citation.cfm?id=89095">my work with Hanks</a>, we hoped to automate some of the drudgery,
+but we didn't expect to replace the lexicographer with bots, or with <a href="https://www.mturk.com/mturk/welcome">turkers</a>.
+It was a surprise when Wikipedia could compete with traditional encylopedias (see 
+<a href="http://www.nature.com/nature/journal/v438/n7070/full/438900a.html">Nature
+article</a>), and soon thereafter, traditional enclopedias quickly
+disappeared.  Conferences on linguistic resources such
+as <a href="http://lrec2016.lrec-conf.org/en/">LREC</a> have done well
+over the years.  <a href="https://wordnet.princeton.edu/">WordNet</a>
+and <a href="https://framenet.icsi.berkeley.edu/fndrupal/">FrameNet</a>
+are highly cited.
+<a href="http://www.nltk.org/">NLTK</a> offers convenient <a href="http://www.nltk.org/howto/wordnet.html">tools for estimating word similarity</a> (in ways that are quite different from pointwise mutual information and word2vec).
+</li>
+
+<li> Statistical transforms and smoothing probably remain important
+today in contexts such as
+embeddings. Both <a href="https://code.google.com/archive/p/word2vec/">Word2vec</a>
+and <a href="https://nlp.stanford.edu/projects/glove/">GloVe</a>
+talk about raising something to the 0.75 power.  GloVe introduces
+another transform to downweight small counts.
+<ol>
+<li><a href="http://www.ling.upenn.edu/courses/cogs502/GoodTuring1953.pdf">Good Turing smoothing</a></li>
+<li><a href="https://www.grsampson.net/AGtf.html">Good-Turing Frequency Estimation Without Tears</a></li>
+<li><a href="https://arxiv.org/abs/cs/0108005">A Bit of Progress in Language Modeling</a></li>
+</ol>
+</li>
+
+<li>Starting
+  with <a href="https://en.wikipedia.org/wiki/PageRank">Page Rank</a>
+  and the founders of Google, it has become popular to model the web
+  and social media as graphs.  Page rank can be viewed as eigen values
+  of a graph
+  (see <a href="http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf">tech
+  report</a>).
+<a href="https://en.wikipedia.org/wiki/Jon_Kleinberg">Kleinberg</a>
+has published a number of highly cited papers including:
+<ol>
+<li><a href="https://www.cs.cornell.edu/home/kleinber/auth.pdf">Authoritative Sources in a Hyperlinked Environment</a></li>
+<li><a href="https://www.cs.cornell.edu/home/kleinber/kdd03-inf.pdf">Maximizing the Spread of Influence through a Social Network</a></li>
+<li><a href="https://www.cs.cornell.edu/home/kleinber/link-pred.pdf">The Link Prediction Problem for Social Networks</a></li>
+<li><a href="https://www.cs.cornell.edu/home/kleinber/swn.pdf">The Small-World Phenomenon: An Algorithmic Perspective</a></li>
+</ol>
+</html>

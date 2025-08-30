@@ -1,0 +1,46 @@
+From PMI to Bots
+
+The Lexicographer, Patrick Hanks, and I introduced pointwise mutual
+information (PMI) when we were reviving 1950s-style empirical methods
+in 1990s.  PMI connected a number of interdisciplinary dots between
+Psychology, Information Theory and Lexicography.  This talk will
+connect some more dots between PMI and much of the recent excitement
+in Artificial Intelligence (AI) involving Large Language Models
+(LLMs).
+
+Chatbots encode language, pictures, audio, video and more as vectors
+and then use approximate nearest neighbors (ANN) to respond to
+prompts.  ANN inputs a query and returns nearby vectors in a database
+of vectors (embedding).  Indexing for ANN often starts by compressing
+the vector database using methods such as Product-Quantization (PQ).
+Dimension reduction with SVD has more history than PQ, and is better
+understood.  Vector databases tend to be tall-skinny; that is, there
+are many more rows than columns.
+
+This talk will introduce a batching approximation to SVD for
+tall-skinny matrices.  Batching makes it possible to estimate SVD of
+large vector databases with surprisingly little memory, important for
+streaming and embarrassingly parallel applications.
+
+The talk will end with a discussion of sampling.  The SVD
+approximation suggests that sampling is ``all we need'' to estimate
+singular values.  Similarly, benchmarking can be viewed as a sampling
+method to estimate performance on a larger population of interest.  One
+risk with sampling, however, is the tendency to ignore important
+minority cases.
+
+
+Bio
+
+Kenneth Church works on large language models (LLMs). He was an early
+advocate of empirical methods and a founder of the Conference on
+Empirical Methods in Natural Language Processing (EMNLP).  He
+currently works for VecML, a small start-up company founded by Ping
+Li, a former intern that has been working on his intern project for 20
+years.  Ken has taught at Northeastern and Hopkins.  He has also
+worked in industry at AT&T Bell Labs, Microsoft, IBM and Baidu, the
+largest search company in China.  Ken received his undergraduate and
+graduate degrees from MIT in ``course 6'' (Artificial Intelligence).
+Honors: Fellow of AT&T, Baidu, ACL and ACM.
+
+Home page: https://kwchurch.github.io/

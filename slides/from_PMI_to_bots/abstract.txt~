@@ -1,0 +1,29 @@
+From PMI to Bots
+
+The Lexicographer, Patrick Hanks, and I introduced PMI, pointwise
+mutual information, when we were reviving 1950s-style empirical
+methods in 1990s.  That work connected a number of interdisciplinary
+dots between Psychology, Information Theory and Lexicography.  This
+talk will connect some more dots between PMI and much of the recent
+excitement in Artificial Intelligence (AI) involving Large Language
+Models (LLMs).
+
+Chatbots encode language, pictures, audio, video and more as vectors
+and then use approximate nearest neighbors (ANN) to respond to
+prompts.  ANN inputs a query and finds the nearest vector in a vector
+database (embedding).  Indexing for ANN often starts by compressing
+the vector database using methods such as Product-Quantization (PQ).
+Dimension reduction with SVD has more history than PQ, and is better
+understood.
+
+This talk will introduce a batching approximation to SVD for
+tall-skinny matrices, matrices with many more rows than columns, such
+as vector databases.  The proposed method makes it possible to
+estimate SVD of large vector databases with surprisingly little
+memory, important for streaming and/or embarrassingly parallel use
+cases.  The talk will end with a discussion of sampling and
+benchmarking.  The SVD approximation suggests that sampling is ``all
+we need.'' But, on the other hand, there are many corner cases that
+are too important to ignore but too rare to matter in
+samples/benchmarks.
+

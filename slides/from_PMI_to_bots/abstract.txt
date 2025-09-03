@@ -1,4 +1,5 @@
 From PMI to Bots
+(and back to sampling)
 
 The Lexicographer, Patrick Hanks, and I introduced pointwise mutual
 information (PMI) when we were reviving 1950s-style empirical methods
